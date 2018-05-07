@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="minimal-ui, user-scalable=no, initial-scale=1, maximum-scale=1">
+	<title>Document</title>
+	<script src="./js/vue.js"></script>
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="./css/zhituxiangqing.css" type="text/css">
+</head>
+<body>
+    <div id="app">
+    	<div class="box">
+    		<div class="teacher-box">
+    			<div class="tea-img">
+    				<img :src="teacher.image" alt="">
+    			</div>
+    			<div class="tea-info">
+    				<p class="tea-info-right">
+    					<span class="tea-name">{{teacher.name}}</span>
+    					<span class="tea-subject" v-for="item in teacher.subject">{{item.label}}</span>
+    					<span class="tea-grade" v-for="item in teacher.grade">{{item.label}}</span>
+    					<span class="tea-price">{{teacher.price}}</span>
+    				</p>
+    				<p class="tea-year">{{teacher.teach_year}}年教龄</p>
+    				<p class="tea-type" v-for="item in teacher.type">
+    				    <img src="./images/xiazai.png" alt="">
+    				    <span class="tea-type-child">{{item.label}}</span>
+    				    <span class="tea-time">已授课{{teacher.teach_time}}小时</span>
+    				</p>
+    			</div>
+    		</div>
+    		<div class="experience">
+    			<p class="person-exp">
+    				<img class="person-logo" src="./images/giren.png" alt="">
+    				<span>个人简历</span>
+    			</p>
+    			<p class="tea-intro">{{teacher.intro}}</p>
+    			<p class="teach-exp">
+    				<img src="./images/exp.png" alt="">
+    				<span>教学经历</span>
+    			</p>
+    			<p class="teach-exp-content">毕业班化学教学</p>
+    			<p class="success">
+    				<img src="./images/success.png" alt="">
+    				<span>成功案例</span>
+    			</p>
+    			<ul class="exp-list clearfix">
+    				<li v-for="item in teacher.teacher_case">
+    					<p class="title">{{item.title}}</p>
+    					<span class="content">{{item.content}}</span>
+    					<p class="er"></p>
+    				</li>
+    			</ul>
+    		</div>
+    		<div class="bottom">
+    			<p>
+    				<hr class="border-left">
+    				<span class="good-content">满意就预约吧</span>
+    				<hr class="border-right">
+    			</p>
+    		</div>
+    		<div class="appoint">
+    			<a href="">
+    				<div class="shoucang">
+    					<img class="shoulogo" src="./images/xing.png" alt="">
+    					<p>收藏</p>
+    				</div>
+    				<div class="appoint-teach">
+    					<span>预约试讲</span>
+    				</div>
+    			</a>
+    		</div>
+    	</div>
+    </div>
+	<script src="./js/zhituxiangqing.js" type="text/javascript"></script>
+</body>
+</html>

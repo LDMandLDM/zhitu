@@ -1,0 +1,126 @@
+html,body{
+    font-size: 62.5%;
+    font-family: PingFangSC-Regular,PingFangSC-Light;
+}
+html,body,p,ul,li{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.box{
+	margin:0 auto;
+}
+.clearfix::after{
+		content: "";
+		height: 0;
+		display: block;
+		clear:both;
+}
+.top-bar ul{
+	border-bottom:0.5rem solid #f5f5f5;
+}
+.top-bar ul li{
+	float: left;
+	padding-right: 10%;
+}
+.top-bar ul li a{
+	color: #333;
+	font-size: 0.9rem;
+}
+.first-top-bar{
+	border-right: 1px solid #888;
+	margin: 0.5rem 0 0.5rem 13%;
+}
+.seconed-top-bar{
+	border-right: 1px solid #888;
+	margin: 0.5rem 0 0.5rem 13%;
+}
+.third-top-bar{
+	margin: 0.5rem 0 0.5rem 12%;
+}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+.selected{
+	color:#52c644;
+}
+.grade,.subject,.type{
+	display: inline-block;
+	margin: 0.5rem 0 0.5rem 4%;
+	width: 20%;
+	background-color: #f5f5f5;
+	text-align: center;
+	padding:1rem 0;
+}
+.teacher-img{
+	width: 80%;
+	height: 7rem;
+    margin-left:9%;
+    padding-top:1rem;
+}
+.subject-list ul li a{
+    display: inline-block;
+    width: 100%;
+}
+.teacherlist-left{
+    width: 30%;
+    float: left;
+}
+.teacherlist-right{
+    width: 70%;
+    float: left;
+}
+.teacher-info{
+	margin-top:1.5rem;
+}
+.tea-name{
+	font-size: 0.8rem;
+	color:#262323; 
+}
+.tea-subject{
+	font-size: 0.7rem;
+	color: #fff;
+	background-color: #52c644;
+	display:inline-block;
+	width: 13%;
+	height: 1.4rem;
+	border-radius:0.2rem;
+	text-align: center;
+	margin-left:1%;
+}
+.tea-grade{
+	display: inline-block;
+	width: 12%;
+	height: 1.3rem;
+	text-align: center;
+	font-size: 0.5rem;
+	border-radius: 0.2rem;
+	border:1px solid #097c25;
+	color: #097c25;
+}
+.tea-time{
+	font-size:0.5rem;
+	color: #888;
+    float: right;
+    margin-right:5%;
+}
+.tea-year{
+	font-size: 0.8rem;
+    margin: 0.9rem 0 1rem 0;
+	color:  #888;
+}
+.tea-type{
+	font-size: 0.9rem;
+	color:#262323;
+}
+.xiazai-logo{
+    height: 1rem; 
+}

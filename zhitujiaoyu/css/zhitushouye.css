@@ -1,0 +1,158 @@
+	body,html,ul,li,p{
+		padding: 0;
+		margin: 0;
+	}
+	a{
+		text-decoration: none;
+	}
+	ul{
+		list-style: none;
+	}
+    html,body{
+    font-size: 62.5%;
+    font-family: PingFangSC-Regular,PingFangSC-Light;
+    }
+	.clearfix::after{
+		content: "";
+		height: 0;
+		display: block;
+		clear:both;
+	}
+	.box{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
+	.bar{
+		position: relative;
+	}
+    .mylogo{
+    	display: inline-block;
+    	position: absolute;
+    	left:82%;
+    	top: 0.8rem;
+    }
+    .logo{
+    	height: 1.2rem;
+    	width: 21%;
+    	margin: 0.8rem 0 0.8rem 5%;
+    }
+    .mylogoimg{
+    	height: 1rem;
+    	width: 20%;
+    }
+    .mylogo a{
+    	font-size: 1rem;
+    	color: #333;
+    }
+    .swiper-container{
+        width: 100%;
+        height: 8.5rem;
+    }
+    .swiper-slide img{
+    	width: 100%;
+    	height: 8.5rem; 
+    }
+    .subjectbar{
+    	height: 7rem;
+    }
+    .subjectbar ul{
+        height: 7rem;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .subjectbar ul li{
+        display: inline-block;
+        width:20%;
+        text-align: center;
+        margin-top:1.5rem;
+    }
+    .subjectimg{
+        width: 50%;
+    }
+    .hotteacher{
+    	background-color:#F5F5F4;
+    }
+    .hotteacher p{
+    	padding: 0.7rem 0 0.7rem 5%;
+    	color:#ff7200;
+    	font-size: 0.9rem; 
+    }
+    .teacher-img{
+    	width: 80%;
+    	height: 7rem;
+        margin-left:9%;
+        padding-top:1rem;
+    }
+    .hotteacher-bar ul li a{
+    	display: inline-block;
+    }
+    .hotteacher-left{
+        width: 30%;
+        float: left;
+    }
+    .hotteacher-right{
+        width: 70%;
+        float: left;
+    }
+    .teacher-info{
+    	margin-top:1.5rem;
+    }
+    .tea-name{
+    	font-size: 0.8rem;
+    	color:#262323; 
+    }
+    .tea-subject{
+    	font-size: 0.7rem;
+    	color: #fff;
+    	background-color: #52c644;
+    	display:inline-block;
+    	width: 13%;
+    	height: 1.4rem;
+    	border-radius:0.2rem;
+    	text-align: center;
+    	margin-left:1%;
+    }
+    .tea-grade{
+    	display: inline-block;
+    	width: 12%;
+    	height: 1.1rem;
+    	text-align: center;
+    	font-size: 0.5rem;
+    	border-radius: 0.2rem;
+    	border:1px solid #097c25;
+    	color: #097c25;
+    }
+    .tea-time{
+    	font-size:0.5rem;
+    	color: #888;
+        float: right;
+        margin-right:5%;
+    }
+    .tea-year{
+    	font-size: 0.8rem;
+        margin: 0.9rem 0 1rem 0;
+    	color:  #888;
+    }
+    .tea-type{
+    	font-size: 0.9rem;
+    	color:#262323;
+    }
+    .xiazai-logo{
+        height: 1rem; 
+    }
+    .back-er{
+    	height: 0.5rem;
+    	width: 100%;
+    	background-color: #F5F5F4;
+    }
+    .subject-logo{
+    	height: 2.5rem;
+    }
+    .subject-name{
+    	font-size: 0.8rem;
+    	color:#262323;
+    	text-align: center;
+    	margin-top:0.2rem;
+    }

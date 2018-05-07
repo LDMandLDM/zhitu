@@ -1,0 +1,205 @@
+html,body,p,ul,li{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+    font-size: 62.5%;
+    font-family: PingFangSC-Regular,PingFangSC-Light;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clearfix::after{
+	content: "";
+	height: 0;
+	display: block;
+	clear:both;
+}
+.box{
+	margin: 0 auto;
+}
+.teacher-box{
+	width: 100%;
+	height:9.5rem;
+	border-bottom: 1rem solid #f5f5f5;
+}
+.tea-img{
+	width: 30%;
+	height: 9.5rem;
+	float: left;
+}
+.tea-img img{
+	height: 7.3rem;
+	width: 80%;
+	margin:1rem 0 1rem 1rem;
+}
+.tea-info{
+	width: 70%;
+	height:9.5rem;
+	float: left;
+}
+.tea-info-right{
+	margin-top:1.3rem;
+}
+.tea-name{
+	font-size: 1.4rem;
+}
+.tea-subject{
+	font-size: 1.3rem;
+	margin:0 1%;
+	width: 13%;
+	display:inline-block;
+	background-color:#52c644;
+	color: #fff;
+	text-align: center; 
+	border-radius: 12%;
+}
+.tea-grade{
+    font-size: 1.2rem;
+    width: 12%;
+    display: inline-block;
+    border:1px solid #097c25;
+    color: #097c25;
+    text-align: center;
+    border-radius: 12%;
+}
+.tea-price{
+	color: #ee4034;
+	font-size: 1.2rem;
+	display: inline-block;
+	float: right;
+	margin-right: 5%;
+}
+.tea-year{
+	color: #888;
+	font-size: 1.2rem;
+	margin-top:0.8rem;
+	margin-bottom: 1.5rem;
+}
+.tea-type img{
+	height: 1.1rem; 
+}
+.tea-type-child{
+	font-size: 1.4rem;
+}
+.tea-time{
+	color: #888;
+	font-size: 1.4rem;
+	float: right;
+	margin-right: 5%;
+}
+.person-exp,.teach-exp,.success{
+	margin-left: 5%;
+	margin-top:1.2rem;
+	position: relative;
+}
+.person-exp span,.teach-exp span,.success span{
+	font-size: 1.5rem;
+	margin-left: 5%;
+}
+.person-logo{
+	height: 1.3rem;
+	position: absolute;
+	top:0.4rem;
+}
+.tea-intro,.teach-exp-content{
+	margin-top:0.8rem;
+	text-align: left;
+	margin: 0 auto;
+	width: 80%;
+	font-size: 1.3rem;
+	color: #888;
+}
+.teach-exp img{
+	height: 1.3rem;
+	position: absolute;
+	top:0.4rem;
+}
+.success img{
+	height: 1.3rem;
+	position: absolute;
+	top:0.4rem;
+}
+.title{
+	font-size: 1.4rem;
+	margin-top:0.5rem;
+}
+.content{
+	font-size: 1.3rem;
+	color:#888;
+}
+.er{
+	border:1px solid #f5f5f5;
+	margin-top:0.8rem;
+	/*margin-bottom: 0.5rem;*/
+}
+.exp-list li{
+	width: 80%;
+	margin: 0 auto;
+}
+.bottom{
+	background-color: #f5f5f5;
+	width: 100%;
+	height: 10rem;
+	position: relative;
+}
+.border-left{
+	color: #9e9c9c;
+	width: 20%;
+	position: absolute;
+	left:17%;
+	top:2.3rem;
+}
+.good-content{
+	display: inline-block;
+	font-size: 1.6rem;
+	margin-top:2rem;
+	margin-left:40%;
+	color: #9e9c9c;
+}
+.border-right{
+	color: #9e9c9c;
+	width: 20%;
+	position: absolute;
+	top:2.3rem;
+	left:68%;
+}
+.appoint{
+	height: 4.7rem;
+	width: 100%;
+	position: fixed;
+	bottom: 0rem;
+}
+.appoint a{
+	display: inline-block;
+	width: 100%;
+}
+.shoucang{
+	width: 15%;
+	height: 4.7rem;
+	background-color: #49a775;
+	float: left;
+}
+.shoucang img{
+	height: 1.8rem;
+	margin-left:30%;
+	margin-top: 0.8rem;
+}
+.shoucang p{
+	color: #fff;
+	font-size: 1.3rem;
+	text-align: center;
+}
+.appoint-teach{
+	background-color:#2dc072 ;
+	/*height: 5.4rem;*/
+	width: 85%;
+	float: left;
+	font-size: 1.6rem;
+	color: #fff;
+	text-align: center;
+    padding:1.5rem  0;
+}
